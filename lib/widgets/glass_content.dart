@@ -1,8 +1,6 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
-
-import '../constants/constants.dart';
+import 'package:portfolio/constants/constants.dart';
 
 class GlassContent extends StatelessWidget {
   final Size size;

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/blur_box.dart';
-import '../constants/constants.dart';
+import 'package:portfolio/constants/constants.dart';
+import 'package:portfolio/widgets/menu.dart';
+import 'package:portfolio/widgets/person_pic.dart';
 
 class TopSection extends StatelessWidget {
   const TopSection({Key? key}) : super(key: key);
@@ -20,15 +22,17 @@ class TopSection extends StatelessWidget {
       ),
       child: Container(
         margin: const EdgeInsets.only(top: defaultPadding),
+        width: 1200,
         child: Stack(
           children: [
             LogoAndBlurBox(size: size),
-            Positioned(
-              child: Container(
-                constraints:
-                    const BoxConstraints(maxWidth: 639, maxHeight: 860),
-                child: Image.asset("assets/images/person.png"),
-              ),
+            const Positioned(
+              bottom: 0,
+              right: 0,
+              child: PersonImg(),
+            ),
+            const Positioned(
+              child: Menu(),
             )
           ],
         ),
