@@ -11,23 +11,23 @@ class Feedback {
 List<Feedback> feedbacks = [
   Feedback(
       id: 1,
-      name: "name random 1",
+      name: "John Doe",
       review: review,
       userPic: "assets/images/people.png",
       color: const Color(0xFFFFF3DD)),
   Feedback(
       id: 2,
-      name: "name random 2",
+      name: "John Doe",
       review: review,
       userPic: "assets/images/people.png",
       color: const Color(0xFFD9FFFC)),
   Feedback(
       id: 3,
-      name: "name random 3",
+      name: "John Doe",
       review: review,
       userPic: "assets/images/people.png",
       color: const Color(0xFFFFE0E0))
 ];
 
 String review =
-    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.";
+    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters";
