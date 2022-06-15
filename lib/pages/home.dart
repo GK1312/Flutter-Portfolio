@@ -9,8 +9,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
-          children: [
+          children: const [
             TopSection(),
+            SizedBox(height: 500),
           ],
         ),
       ),

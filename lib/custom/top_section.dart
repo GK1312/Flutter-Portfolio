@@ -32,6 +32,7 @@ class TopSection extends StatelessWidget {
               child: PersonImg(),
             ),
             const Positioned(
+              bottom: 0,
               child: Menu(),
             )
           ],
