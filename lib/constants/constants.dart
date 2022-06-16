@@ -17,10 +17,14 @@ final defaultCardShadow = BoxShadow(
   color: Colors.black.withOpacity(0.1),
 );
 
-const defaultOutlineInputBorder =
-    OutlineInputBorder(borderSide: BorderSide(color: Color(0xFFCEE4FD)));
+final defaultOutlineInputBorder = OutlineInputBorder(
+  borderRadius: BorderRadius.circular(50),
+  borderSide: const BorderSide(
+    color: Color(0xFFCEE4FD),
+  ),
+);
 
-const defaultInputDecorationTheme = InputDecorationTheme(
+final defaultInputDecorationTheme = InputDecorationTheme(
   border: defaultOutlineInputBorder,
   enabledBorder: defaultOutlineInputBorder,
   focusedBorder: defaultOutlineInputBorder,

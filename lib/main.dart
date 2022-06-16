@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/constants/constants.dart';
 import 'package:portfolio/pages/home.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        inputDecorationTheme: defaultInputDecorationTheme,
         primarySwatch: Colors.blue,
       ),
       home: const HomePage(),

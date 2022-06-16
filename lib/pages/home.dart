@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/constants/constants.dart';
 import 'package:portfolio/custom/about_section.dart';
+import 'package:portfolio/custom/contact_section.dart';
 import 'package:portfolio/custom/feedback_section.dart';
 import 'package:portfolio/custom/recent_work.dart';
 import 'package:portfolio/custom/service_section.dart';
@@ -21,7 +22,9 @@ class HomePage extends StatelessWidget {
             ServiceSection(),
             RecentWorkSection(),
             FeedbackSection(),
-            SizedBox(height: 500),
+            SizedBox(height: defaultPadding),
+            ContactSection(),
+            SizedBox(height: 100),
           ],
         ),
       ),
